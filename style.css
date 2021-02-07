@@ -1,0 +1,76 @@
+
+/* allowing inclusion of padding + border*/
+* {
+  box-sizing: border-box;
+}
+
+/*rules for the main banner (the name at page top) to follow*/ 
+h1 {
+  text-align: center;
+  font-family: 'Dancing Script', Times;
+  font-size: 52px;
+  font-weight: 200;
+  line-height: 40px;
+  letter-spacing: 10px;
+}
+
+/*rules for the page breaks*/
+hr {
+  height: 10px;
+  background-color: rgba(5, 5, 5, 0.884);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/*rules to ensure image is situated where I want on the page*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px; /*this will help the image appear more rounded at the corners*/
+
+}
+
+/*rules for the smaller header underneath the picture image to follow*/
+h3 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 100;
+  font-size: 24px;
+  color: rgb(87, 88, 88);
+  padding: 10px;
+  margin: 30px;
+}
+
+/*rules for the paragraphs to follow*/
+p {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 30px;
+}
+
+/*rules for the bulleted list to follow*/
+ul {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  list-style: inside;
+}
+
+/*rules for the smaller header large "about me" section to follow*/
+h2 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: rgb(87, 88, 88);
+  padding: 10px;
+  margin: 30px;
+}
+
+/*giving colour rules for the LinkedIn and GitHub links near the page bottom*/
+a:link    { color:  hsl(207, 100%, 59%);  }
+a:visited { color: hsl(184, 79%, 22%); }
+a:hover   { color: hsla(0, 95%, 32%, 0.973); }
+a:active  { color: hsl(276, 18%, 54%); }
